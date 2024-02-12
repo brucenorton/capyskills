@@ -1,0 +1,74 @@
+/* capyskills css/grids.css */
+
+:root{
+  --hos-bg: rgb(0 140 193 / 1);
+  --nge-bg: rgb(209 16 65 / 1);
+  --va-bg: rgb(93 192 42 /1);
+
+}
+
+header{
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+}
+
+header img{
+  height: 60px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.694rem;
+}
+
+section.area{
+  background-color: rgb(240 240 240 /1);
+}
+#HOS,.HOS{
+  background-color: rgb(0 140 193 / 1);
+}
+#NGE, .NGE{
+  background-color: rgb(209 16 65 / 1);
+}
+#VA, .VA{
+  background-color: rgb(93 192 42 /1);
+
+}
+
+h2{
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 1.44rem);
+  padding: 1.2rem;
+}
+h3{
+  font-size: clamp(0.833rem, -0.875rem + 6.94vw, 1.2rem);
+  padding: 0.833rem 1.2rem;
+}
+h3{
+  font-size: clamp(0.833rem, -0.875rem + 6.94vw, 1.2rem);
+  padding: 0.693rem 1rem;
+}
+
+article.competency{
+  margin: 0 0 0 1.2rem;
+}
+
+article.skill{
+  margin: 0 0 0 2.074rem;
+}
+section.element{
+
+}
+section.level{
+  margin: 0 0 0 2.986rem;
+}
+section.level div{
+  background-color: rgb(240 240 240 /1);
+  padding: 0.579rem 0.579rem 0.579rem 1rem;
+  font-size: 0.9rem;
+  display: none;
+}
+section.level div.open{
+  display: block;
+}

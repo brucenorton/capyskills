@@ -1,0 +1,426 @@
+{
+  "area":[{
+    "code":"HOS",
+    "descriptor":"Habits of Success",
+    "competency":[{
+      "code":"HOS.1",
+      "descriptor":"Manage my work and set goals.",
+      "statement":"I can demonstrate effective personal work habits to help me achieve my academic and personal goals.",
+      "skill":[
+        {
+          "code":"HOS.1.1",
+          "descriptor":"Manage tasks and deadlines",
+          "statement":"How well do I manage my tasks and deadlines?",
+          "level":[{
+            "2":"My teacher keeps track of my tasks and due dates. More than 25% of my work is late or incomplete.",
+            "4":"My teacher helps me keep track of my tasks and due dates. Less than 25% of my tasks are overdue or incomplete. I let my teacher know when I need help.",
+            "6":"With support from my teacher, I can keep track of my tasks and my due dates. Less than 10% of my tasks that are overdue or incomplete. I let my teacher know when I need help or when I need more time to turn in work before the deadline.",
+            "8":"I can keep track of my tasks and due dates on my own. Almost none of my tasks are overdue or incomplete.I can finish an important task 24 hours before it is due. I integrate constructive feedback from my peers or teachers into some of my most important work before I turn it in.",
+            "10":"I use a task management system to keep track of my tasks and due dates. I consistently submit my work on time. I finish some of my most important tasks 24 hours before they are due.I integrate constructive feedback from my peers or teachers into most of my most important work before I turn it in.",
+            "12":"I consistently use a task management system to keep track of my tasks and due dates. I can prioritize my work so that I meet all of my due dates. I finish all of my most important tasks 24 hours before they are due.I integrate constructive feedback from my peers or teachers into all of my most important work before I turn it in."
+          }]
+        },
+        {
+          "code":"HOS.1.2",
+          "descriptor":"Set Goals",
+          "statement":"How well do I set, achieve, and reflect on my goals?",
+          "level":[{
+            "2":"I can work with my teacher to set a goal for myself. I can think of one or two ways to make sure I achieve my goal/s. I can reflect on what I did to achieve my goal/s.",
+            "4":"With support from my teacher/advisor, I can set a measurable goal (e.g. SMART goal) for my personal or academic growth. I can make a plan for how I will achieve my goal. I can submit reflections about my progress towards achieving my goal. If I am not making progress, I can work with my teacher/advisor to revise my goal and plan.",
+            "6":"I can independently set a measurable goal (e.g. SMART goal) for my personal and academic growth. I can create an action plan for each goal. I can submit weekly reflections about my progress towards achieving my goals. If I am not making progress, I can work with my teacher/advisor to revise my goals and action plan.",
+            "8":"I can set measurable goals (e.g. SMART goal) for my personal and academic growth. I can also set a goal in another area (e.g., career, college, sports). I can create an action plan for each goal. This action plan is challenging but not impossible to do. I can submit weekly reflections that include evidence of my progress towards achieving my goals. If I am not making progress, I work with my teacher/advisor to revise my goals and action plan. ",
+            "10":"I can set measurable goals (e.g. SMART goals) to help me grow personally, academically, and in other areas of focus (e.g., career, college, sports). I can revise my goals as I meet them and continue to challenge myself. I can create an action plan in my for each goal. This action plan is challenging but not impossible to do. I can submit weekly reflections that include evidence of my progress towards achieving my goals. If I am not making progress, I seek support from members in my personal and professional network who can help me achieve my goals. I can identify possible barriers to achieving each goal and ways to overcome them.",
+            "12":"I can set measurable goals (e.g. SMART goals) to help me grow personally, academically, and in other areas of focus (e.g., career, college, sports). I can revise my goals as I meet them and continue to challenge myself. I get feedback on my goals to ensure they are measurable and achievable. I can create an action plan for each goal on my own. This action plan is challenging but not impossible to do. I can get feedback on my action plan from members of my personal and professional network to improve my ability to achieve my goals. I can submit weekly reflections that include evidence of my progress towards achieving my goals. If I am not making progress, I seek support from members in my personal and professional network who can help me achieve my goals. I can identify possible barriers to achieving each goal and ways to overcome them."
+          }]
+        },
+        {
+          "code":"HOS.1.3",
+          "descriptor":"Be organized and prepared",
+          "statement":"How well do I keep myself organized and come prepared to learn?",
+          "level":[{
+            "2":"I am still working on getting the materials I need and/or completing the work that I need for my studio. If someone tells me how, then I can locate my digital files.",
+            "4":"I am still working on getting the materials I need or completing the work that I need for my studio. With help from others, I can keep my things organized, safe, and in good condition. Sometimes I need help taking care of things for which I am responsible. With some help, I can locate my digital files.",
+            "6":"I sometimes have the materials I need, and I sometimes have completed the work that I need for my studio. I am mostly organized and and can keep my things in good condition. Sometimes I need help taking care of things for which I am responsible. I have ways to find my digital files but I need to create an organizational system to help me better manage them.",
+            "8":"I almost always have all of my materials and work completed that I need for my studio and am ready to learn. I am mostly organized and and can keep my things in good condition. I take good care of things for which I am responsible. I have created an organizational system for my digital files and am working to consistently use it.",
+            "10":"I always have all of my materials and have completed all of the work I need for my studio so that I am ready to learn. I have my own process or strategy for keeping my things organized, safe, and in good condition. I take good care of things for which I am responsible. I am able to keep my digital files and folders organized.",
+            "12":"I always come to my studio fully prepared and ready to learn. I use multiple strategies and/or systems for keeping my things organized, safe, and in good condition. I take special care of things for which I am responsible because I understand and appreciate how valuable they are to my learning. I consistently implement effective strategies for organizing and maintaining digital files and folder systems."
+          }]
+        },
+        {
+          "code":"HOS.1.4",
+          "descriptor":"Stay focused and on task",
+          "statement":"How well do I stay focused and on task?",
+          "level":[{
+            "2":"I am learning strategies for focusing on my learning task. I am learning strategies to remain on task.",
+            "4":"With reminders, I can stay focused on my learning or my task. With reminders, I can remain on task with minimal distraction to others.",
+            "6":"Sometimes I can think of a strategy to stay focused on my learning task. Sometimes I can remain on task without reminders.",
+            "8":"I am most always focused and on task. I am adapting to different learning environment and conditions. ",
+            "10":"I can stay focused on a task without needing guidance or supervision. I can adapt to different learning environments and have multiple strategies to keep my focus.",
+            "12":"I can independently stay focused on my learning and my tasks for sustained periods of time. I can use multiple strategies to avoid distractions and to maintain focus and stay productive in any and all learning environments."
+          }]
+        },
+        {
+          "code":"HOS.1.5",
+          "descriptor":"Improve my work.",
+          "statement":"How well do I revise and improve my work?",
+          "level":[{
+            "2":"I can review my work and think about something I can do to make it better.",
+            "4":"I can review my work and think about something I can do to make it better. With support, I can use the continua to make improvements to my work. When directed, I can revise my work.",
+            "6":"I can use the continua to make improvements to my work. I can make improvements in the specific areas where I am directed to make changes.",
+            "8":"I can use the continua to revise my work in each of the relevant skill areas. I can revise my work at least once before my final submission. I can use the feedback from my teacher to improve my work.",
+            "10":"I can use the continua to identify specific ways that I can improve my work and get to the next level in each skill area. I understand that I am always able to take initiative to revise my work and continually improve it. I seek and use feedback from my teachers and peers to improve my work.",
+            "12":"I can consistently reflect on and revise on my work, using the continua to make specific improvements in each skill area to achieve a higher level. I seek and use feedback from my teachers and peers in order to improve my work and my work process. I always try to make my work the best that it can be and I am consistently reaching higher levels on the continua and/or showing significant growth in my work."
+          }]
+        }
+      ]
+    },
+    {
+      "code":"HOS.2 ",
+      "descriptor":"Build Networks",
+      "statement":"I can build relationships with diverse individuals and expand my network of people who can help and support me.",
+      "skill":[
+        {
+          "code":"HOS.2.1",
+          "descriptor":"Build positive relationships",
+          "statement":"I can build positive relationships with diverse individuals and expand my network of people who can help and support me.",
+          "level":[{
+            "2":"I can introduce myself to a new classmate or playmate whom I haven't met before.I can make friends with people who are different from me.",
+            "4":"I can find opportunities to make new friends with people who are like me and who are different from me (i.e. sit with different people at lunch, play with different people at recess, join an after school club, etc.).",
+            "6":"I can initiate new relationships with peers who share my interests, as well as with peers who have different backgrounds or interests from mine.I can participate in experiences that help me meet new people with shared interests (i.e., sports, clubs, volunteering, part-time job, etc.)",
+            "8":"I can identify and participate in formal and informal interactions with people who have interests, perspectives, experiences, or strengths that I can learn from.I can participate in experiences that help me meet new people with shared interests (i.e., sports, clubs, volunteering, part-time job, etc.)",
+            "10":"I can identify and participate in formal and informal interactions with people who have interests, perspectives, experiences, or strengths that I can learn from.I can actively seek out opportunities to meet people who work in my career field of interest to get more information and to build my network.I can use my network to connect me with new people that can help me achieve my goals.",
+            "12":"I can purposefully participate in diverse formal and informal networking opportunities and interactions with people who have interests, perspectives, experiences, or strengths that I can learn from.I can actively seek out opportunities to meet people who work in my career field of interest to get more information and to build my network.I can use my network to connect me with new people that can help me achieve my goals.I can prepare and practice an 'elevator speech' for networking opportunities so that I can succinctly describe myself, my strengths, interests, and goals.I can create contact cards with my name, phone number and email address as a professional way to share my contact information with new people I would like to add to my network."
+          }]
+        },{
+      
+            "code":"HOS.2.2",
+            "descriptor":"Seek support and resources",
+            "statement":"",
+            "level":[{
+              "2":"I can introduce myself to a new classmate or playmate whom I haven't met before.I can make friends with people who are different from me.",
+              "4":"I can ask for help, support, and advice from people that I trust.I can show my appreciation when someone helps me.",
+              "6":"I can ask for help, support, and advice from people that I trust.I can follow up with the individuals who help and support me to express my gratitude (e.g. phone call, thank you card or email).",
+              "8":"I can actively seek out help, support, and advice from people in my network.I can follow up with the individuals who help and support me to express my gratitude.I can clearly and respectfully express my needs and make specific requests (e.g. asking for assistance writing a resume).",
+              "10":"When I complete a final product, project or performance, I can reflect on the people who supported me and how they helped me to achieve my goals.I can follow up with the individuals who help and support me to express my gratitude.I can think in advance about the types of support I need, and figure out who the best person within my network is to go to for help.I can clearly articulate what I need help with and why.",
+              "12":"When I complete a final product, project or performance, I can reflect on the people who supported me and how they helped me to achieve my goals.I can follow up with the individuals who help and support me to express my gratitude.I can think in advance about the types of support I need, and figure out who the best person within my network is to go to for help.I can clearly articulate what I need help with and why.I can actively seek out opportunities to connect with key individuals who could serve as a resource to me."
+            }]
+        },
+      
+      {
+            "code":"HOS.2.3",
+            "descriptor":"Create and maintain a positive digital/online footprint",
+            "statement":"",
+            "level":[{
+              "2":"I can safely interact with others if I am playing games online (e.g. don't use your real name, don't give out personal information, etc.)",
+              "4":"I can safely interact with others if I am playing games online (e.g. don't use your real name, don't give out personal information, etc.)I can think about how what I write and post will make others feel and I make sure I don't post anything I wouldn't want my parent or teacher to see.",
+              "6":"I can use social media responsibly and effectively to connect with people I know and begin to build my network.I can demonstrate my understanding that everything that I do online leaves a footprint that cannot be undone by using privacy settings and by being thoughtful about the things I post or write (e.g. text messages, snapchats, comments, videos, pictures, etc.). I can think about how what I write and post will make others feel and I make sure I don't post anything I wouldn't want my parent or teacher to see.",
+              "8":"I can use social media responsibly and effectively to connect with people I know and begin to build my network.I can demonstrate my understanding that everything that I do online leaves a footprint that cannot be undone by using privacy settings and by being thoughtful about the things I post or write (e.g. text messages, snapchats, comments, videoes, pictures, etc.). I can think about how what I write and post will make others feel and I make sure I don't write or post anything I wouldn't want my parent, teacher, prospective employer, and/or college admissions counselor to see.",
+              "10":"I can use social media responsibly and effectively to connect with people I know and begin to build my network.I can demonstrate my understanding that everything that I do online leaves a footprint that cannot be undone by using privacy settings and by being thoughtful about the things I post or write (e.g. text messages, snapchats, comments, videoes, pictures, etc.). I can think about how what I write and post will make others feel and I make sure I don't write or post anything I wouldn't want my parent, teacher, prospective employer, and/or college admissions counselor to see.I can check my online profiles regularly to see what comments have been posted and I can block or unfriend people who are posting comments that are inappropriate.I can regularly use a search engine (e.g. Google, Bing, etc.) to look for online records of myself to see what is online about me. I can evaluate whether or not digital me is an accurate representation of real-life me.",
+              "12":"I can use social media responsibly and effectively to connect with people I know and begin to build my network.I can demonstrate my understanding that everything that I do online leaves a footprint that cannot be undone by using privacy settings and by being thoughtful about the things I post or write (e.g. text messages, snapchats, comments, videoes, pictures, etc.). I can think about how what I write and post will make others feel and I make sure I don't write or post anything I wouldn't want my parent, teacher, prospective employer, and/or college admissions counselor to see.I can check my online profiles regularly to see what comments have been posted and I can block or unfriend people who are posting comments that are inappropriate.I can regularly use a search engine (e.g. Google, Bing, etc.) to look for online records of myself to see what is online about me. I can evaluate whether or not digital me is an accurate representation of real-life me. If I find information I think could be detrimental to my candidacy or career, I work to get it removed.I can create a professional social network account with a profile including: a professional photo, details of their educational experience, internships, part-time jobs, and volunteer work, honors/awards and a portfolio of my work (or link to my eportfolio).I can use my professional social network account to connect with people I know,  such as my family, classmates, teachers, coaches, mentors, co-workers, etc. I can join groups that will help me build my network such as school groups or specific city/county groups."
+        }]
+      }]
+    },
+    {
+      "code":"HOS.3",
+      "descriptor":"Navigate My Setting",
+      "statement":"I can learn and follow requirements, effectively communicate, and adapt to change in a variety of settings.",
+      "skill":[
+        {
+        "code":"HOS.3.1",
+        "descriptor":"Learn and follow requirements",
+        "statement":"aaa",
+        "level":[{
+          "2":"With guidance, I can be ready to go to school and other appointments.With guidance and direct support, I can follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.With support, I can become more productive.",
+          "4":"I can sometimes arrive on time for my school, work, and other appointments.With some guidance, I can follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can sometimes be productive.With guidance, I can dress appropriately for position responsibilities and duties.",
+          "6":"I can usually arrive on time for my school, work, and other appointments.I can sometimes follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can be productive, and with support, I can meet my deadlines.I can sometimes dress appropriately for position responsibilities and duties.I have reviewed the workplace policies and requirements for my role or position, and am still learning what they mean.",
+          "8":"I can usually arrive on time for my school, work and other appointments. I follow up to check in on anything I missed or need to do.I can usually follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can be productive and consistently meet my deadlines.I can usually dress appropriately for position responsibilities and duties.I have reviewed and understand the workplace policies and requirements for my role or position.",
+          "10":"I can consistently arrive on time for my school, work, and other appointments. If I am going to be absent or late, I let someone know ahead of time and, when applicable, I find someone to cover for me. I follow up to check in on anything I missed or need to do.I can consistently follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can be productive, consistently meet my deadlines, and demonstrate high quality service, deliverables, and results.I can consistently dress appropriately for position responsibilities and duties. If there is a uniform, all components of the uniform are well-kept, well-managed, and in good condition.I have reviewed and understand the workplace policies and requirements for my role or position. I seek clarification or support when I am unsure, unclear, and/or concerned about a policy or requirement.",
+          "12":"I can consistently arrive on time or early for school, work, and other appointments. If I am going to be absent or late, I let someone know ahead of time, and, when applicable, I find someone to cover for me. I follow up to see what I missed or need to do.I can consistently follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting. I can adjust how I use technology as needed or requested.I can be productive, consistently meet my deadlines, and demonstrate high quality service, deliverables, and results. I can demonstrate flexibility when I need to adjust my timeline and/or workflow. I can consistently dress appropriately for position responsibilities and duties. If there is a uniform, all components of the uniform are well-kept, well-managed, and in good condition. I can adjust how I dress for position responsibilities and duties when necessary (e.g., weather, formal events).I have reviewed and understand the workplace policies and requirements for my role or position. I seek clarification or support when I am unsure, unclear, and/or concerned about a policy or requirement. I make recommendations for policy and requirement revisions based on my experience and desire to improve my workplace."
+        }]
+        },{
+          "code":"HOS.3.2",
+          "descriptor":"Communicate effectively",
+          "statement":"",
+          "level":[{
+            "2":"With support and feedback, I am becoming more thoughtful about the language I use when communicating with others.I can follow instructions with support.I can participate when I am directly asked.",
+            "4":"I am thoughtful in the language I use when communicating with others.I can follow instructions.I can participate and am beginning to actively listen.",
+            "6":"I can usually arrive on time for my school, work, and other appointments.I can sometimes follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can be productive, and with support, I can meet my deadlines.I can sometimes dress appropriately for position responsibilities and duties.I have reviewed the workplace policies and requirements for my role or position, and am still learning what they mean.",
+            "8":"I am thoughtful in the language I use in my in-person and digital communications, taking into consideration the context of my communication and who my audience is.I can follow instructions and ask questions when I need help, support, clarification or to build my knowledge.I can participate in different situations or experiences by actively listening, observing, and asking questions.I can use phone, email, and texting in the right way, at the right time, for the right purpose.",
+            "10":"I can consistently arrive on time for my school, work, and other appointments. If I am going to be absent or late, I let someone know ahead of time and, when applicable, I find someone to cover for me. I follow up to check in on anything I missed or need to do.I can consistently follow the cell phone policies and use other technology (e.g, headphones, laptop) according to the guidelines of my setting.I can be productive, consistently meet my deadlines, and demonstrate high quality service, deliverables, and results.I can consistently dress appropriately for position responsibilities and duties. If there is a uniform, all components of the uniform are well-kept, well-managed, and in good condition.I have reviewed and understand the workplace policies and requirements for my role or position. I seek clarification or support when I am unsure, unclear, and/or concerned about a policy or requirement.",
+            "12":"I am consistently thoughtful in the language I use in my in-person and digital communications, taking into consideration the context of my communication, who my audience is, and any possible cultural differences.I can follow instructions and seek out the right person to ask questions when I need help, support, clarification or to build my knowledge. I take initiative when I have finished a task or project and seek out the next step or a new project.I can participate in different situations or experiences by actively listening, observing, asking questions, thoughtfully engaging, and respectfully disagreeing. I am aware of others' body language, tone, and cues and use this feedback to inform my communication strategy.I can use phone, email, texting, and other communication platforms (e.g., Slack, Google Chat, Zoom) in the right way, at the right time, for the right purpose.I can adhere to the norms and policies of my setting regarding sensitive or confidential communication."
+            }]
+        },{
+        "code":"HOS.3.3",
+        "descriptor":"Demonstrate flexibility and adaptability",
+        "statement":"",
+        "level":[{
+          "2":"If someone points it out to me, I can think about new information that may require me to make a change.With support, I can think about what might be involved in trying an unfamiliar task.If someone points it out to me, I can recognize when change is necessary to make something better, and with support I can make the change occur.",
+          "4":"I can identify new information that may require me to make a change.I can consider what might be involved in trying an unfamiliar task.I can recognize when change is necessary to make something better, and with support I can make the change occur.",
+          "6":"I can identify new information that may require me to make a change. I can evaluate how I might need to change my plan, project, or way of thinking.I can attempt unfamiliar tasks with the support of others.I can recognize when change is necessary to make something better and I attempt to make those changes.",
+          "8":"I can recognize how new information and circumstances will require me to change my plan, project, or way of thinking.I can independently make an attempt at unfamiliar tasks.I can recognize when change is necessary to make something better and I continue to work at making those changes.",
+          "10":"I can adapt to new information and circumstances that require me to change my plan, project, or way of thinking.I can persist when trying unfamiliar tasks and seek help and resources when I am stuck or need more information.I can identify and articulate the possibilities change may bring, and I can make the changes to realize those possibilities.",
+          "12":"I can adapt to new information and circumstances that require me to change my plan, project, or way of thinking.I can handle unfamiliar tasks and ambiguity. I use my ability to grasp information to problem-solve and generate creative solutions.I can identify and articulate the benefits of change in my situation and reflect on the outcome of the changes I made.I can monitor the conditions around me and make a change when needed. I prepare well in advance and anticipate my changing environment."
+        }]
+      }]
+    }]
+  },{
+    "code":"NGE",
+    "descriptor":"NextGen Essentials",
+    "competency":[{
+      "code":"NGE.1",
+      "descriptor":"Design Solutions",
+      "statement":"I can plan, create, and implement a project in the world that has a positive impact on an authentic audience.",
+      "skill":[{
+        "code":"NGE.1.1",
+        "descriptor":"Create a project plan",
+        "statement":"",
+        "level":[{
+          "2":"I can create a project plan.",
+          "4":"I can create a project plan. I can use backwards design, planning all the steps starting from the end result and working backwards to the beginning. I can use a project plan to help me organize my project. ",
+          "6":"I can use a project plan to keep me on track to complete all parts of my project. I can use backwards design, planning all the steps starting from the end result and working backwards to the beginning. I can use a project plan to help me organize my project. I can recognize impediments and develop contingency plans to work around them.",
+          "8":"I can create a project plan that lists the tasks I need to complete and the dates they are due to help keep me on track to complete my project. I complete my final product by the due date. I can solve or work around impediments to my plan.",
+          "10":"I can create a project plan that lists the tasks I need to complete and the dates they are due to help keep me on track to complete my project. I can solve or work around impediments to my plan. I can create a way to prioritize tasks (to-do list, daily goal setting, etc.) to keep me on track to complete all tasks on time. I consistently have all of my tasks complete by the due dates, including my final product.",
+          "12":"I can create a detailed project plan that includes specific tasks and due dates based on my best estimates of the time it takes to complete each task.I can create a way to prioritize tasks (to-do list, daily goal setting, etc.) to keep me on track to complete all tasks on time.I can recognize time constraints and adjust my project plan as needed.I consistently complete all of my tasks and my final product on or before the due date."
+        }]
+        },{
+        "code":"NGE.1.2",
+        "descriptor":"Create a high quality project",
+        "statement":"",
+        "level":[{
+          "2":"I can create a product that meets some of the requirements outlined by my teacher.",
+          "4":"I can create a product that meets the minimum client requirements. I can revise my work based on feedback. ",
+          "6":"I can create a product that meets all of the requirements. I can revise my work based on feedback. ",
+          "8":"I can create a high quality product that meets all of the requirements.   I can revise my work based on feedback. ",
+          "10":"I can create a high quality product that is polished and professional and exceeds the minimum requirements and incorporates original design thinking. I can revise my work based on feedback. ",
+          "12":"I can produce a high quality product that is polished and professional, using formats and standards consistent with the professional world. I can revise my work based on feedback.  I can incorporate my own design decisions into my product that go above and beyond requirements outlined and show evidence of my original and creative thinking."
+        }]
+        },{
+        "code":"NGE.1.3",
+        "descriptor":"Solve a real-world problem",
+        "statement":"",
+        "level":[{
+          "2":"I can create a product that solves a problem.",
+          "4":"I can create a product that solves a problem. I can share my product with an audience/users.",
+          "6":"I can create a product that solves a problem. I can share or display my product for others to see.",
+          "8":"I can create a product that solves a real-world problem. I can share/exhibit my product to a specific audience.",
+          "10":"I can create a product that solves a real-world problem. I can implement my product to positively impact an authentic audience or I can communicate my ideas to someone who can implement them for me.",
+          "12":"I can create a product that solves a real-world problem for a specific audience. I can implement my product to positively impact the specific audience the project was intended for. I can consider my audience throughout the design process."
+        }]
+        },{
+        "code":"NGE.1.4",
+        "descriptor":"Use technology",
+        "statement":"",
+        "level":[{
+          "2":"I can use the assigned platforms and tools to produce or publish my product.",
+          "4":"I can use platforms and tools to develop, communicate, produce, and/or publish my product. I can collect data and use digital tools to analyze and/or represent the data to show my results, when appropriate.  I can use collaborative technologies to work with others, including peers, experts or community members (e.g. Google Docs, Zoom, Slack, etc.), when appropriate.",
+          "6":"I can choose the appropriate platforms and tools to develop, communicate, produce, and/or publish my product. I can collect data and use digital tools to analyze them and represent data to show my results, when appropriate. I can publish or present content that customizes the message and medium for the audience described in the project guidelines. I can use collaborative technologies to work with others, including peers, experts or community members (e.g. Google Docs, Zoom, Slack, etc.), when appropriate. I can choose the appropriate platforms and tools to develop, communicate, produce, and/or publish my product. I can collect data and use digital tools to analyze them and represent data to show my results, when appropriate. I can publish or present content that customizes the message and medium for my intended audience. I can use digital tools to plan and manage a design process.",
+          "8":"I can use collaborative technologies to work with others, including peers, experts or community members (e.g. Google Docs, Zoom, Slack, etc.), when appropriate",
+          "10":"I can choose the appropriate platforms and tools to develop, communicate, produce, and/or publish my product. I can collect data and use digital tools to analyze them and represent data to show my results, when appropriate. I can publish or present content that customizes the message and medium for my intended audience. I can select and use digital tools to plan and manage a design process. I can use digital tools to examine and communicate the impact of my product. I can use collaborative technologies to work with others, including peers, experts or community members (e.g. Google Docs, Zoom, Slack, etc.), when appropriate",
+          "12":"I can choose or create the appropriate platforms and tools to develop, communicate, produce, and/or publish my product. I can collect data or identify relevant data sets, use digital tools to analyze them, and represent data in various ways to facilitate problem-solving and decision-making, when appropriate. I can publish or present content that customizes the message and medium for my intended audience. I can select and use digital tools to plan and manage a design process that considers design constraints and calculated risks. I can use digital tools to examine and communicate the impact of my product. I can use collaborative technologies to work with others, including peers, experts or community members, to develop or get feedback on my product (e.g. Google Docs, Zoom, Slack, etc.), when appropriate."
+        }]
+        },{
+        "code":"NGE.1.5",
+        "descriptor":"Reflect on my work and my impact",
+        "statement":"",
+        "level":[{
+          "2":"I can think about what I did well.",
+          "4":"I can explain what I did well and what I would do differently next time.",
+          "6":"I can reflect on my process and product to identify areas of strength and areas for improvement.",
+          "8":"I can reflect on my process and product to identify areas of strength and areas for improvement. I can discuss how the audience interacted with and/or responded to my product.",
+          "10":"I can reflect on my process and product to identify areas of strength and areas for improvement. I can reflect on the impact my work had on my audience.",
+          "12":"I can reflect on my process and product to identify areas of strength and areas for improvement. I can evaluate the impact my product had on my specific audience and whether or not my final product impacted them in the way I intended (collecting feedback from my audience when possible)."
+        }]
+      }]
+        },{
+          "code":"NGE.2",
+          "descriptor":"Present to an Audience",
+          "statement":"I can give purposeful and effective presentations in formal settings, making strategic and appropriate decisions about content, language use, and style based on the audience, venue, and topic.",
+          "skill":[{
+            "code":"NGE.2.1",
+            "descriptor":"Introduce presentation",
+            "statement":"",
+            "level":[{
+              "2":"I can tell my audience the central idea of my presentation. I can introduce myself when appropriate.",
+              "4":"I can tell my audience the central idea I will be speaking about and the purpose of my presentation. I can introduce myself (when appropriate) and give some background information.",
+              "6":"I can tell my audience the central idea I will be speaking about and the purpose of my presentation. I can introduce myself (when appropriate) and provide some necessary background information that will help my audience understand my topic and/or the reason I am interested in it.  I can attempt to engage my audience with a hook. ",
+              "8":"I can tell my audience the central idea I will be speaking about and the purpose of my presentation. I can introduce myself (when appropriate) and provide some necessary background information that will help my audience understand my topic and/or the reason I am interested in it.  I can attempt to engage my audience with a hook.  I can connect my hook to my central idea.",
+              "10":"I can tell my audience the central idea I will be speaking about and the purpose of my presentation. I can introduce myself and provide some necessary background information that will help my audience understand my topic and/or the reason I am interested in it. I can use an engaging hook to get the attention of my audience. I can connect my hook to my central idea. I can make clear the significance of my central idea.",
+              "12":"I can tell my audience the central idea I will be speaking about and the purpose of my presentation. I can introduce myself and provide some necessary background information that will help my audience understand my topic and/or the reason I am interested in it. I can engage my audience with a compelling or provocative hook. I can connect the hook with my central idea so that one flows seamlessly into another.   I can make clear the significance of my central idea."
+            }]
+          },{
+            "code":"NGE.2.2",
+            "descriptor":"Present findings and supporting evidence",
+            "statement":"",
+            "level":[{
+              "2":"I can stay focused on my central idea throughout my presentation. I can use examples or reasons that support my central idea.",
+              "4":"I can keep my audience focused on the central idea throughout the presentation (e.g. by restating the central idea, by repeating key words, or by connecting back to the central idea). I can use descriptions, facts, and details to support my central idea.",
+              "6":"I can present my central idea and findings in an organized and focused way throughout my presentation.  I can use descriptions, facts, and details to support my central idea.",
+              "8":"I can present my central idea and findings in an organized and focused way throughout my presentation.  I can use relevant evidence to support my central idea. I can make clear connections between my central idea and the supporting evidence.",
+              "10":"I can present my central idea and findings in an organized and focused way throughout my presentation.  I can use several types of supporting evidence (e.g. explanations, examples, illustrations, statistics, analogies, quotations from relevant sources) that strengthen my central idea. I can make clear connections between my central idea and the supporting evidence. I can use transition words to introduce my main points and supporting evidence (e.g. for example, in addition, shows that) and to make connections between my ideas (e.g. as stated earlier, in contrast to, similarly to). When time allows, I can manage a Q&A session.",
+              "12":"I can present my central idea and findings in an organized and focused way throughout my presentation.  I can use varied types of supporting evidence that strengthen my central idea and convey in-depth background knowledge on the topic.  I can make clear connections between my central idea and the supporting evidence. I can use transition words to introduce main points, connect ideas, and create a logical line of reasoning for my audience. I can address alternative views, using specific evidence to support my position. When time allows, I can manage a Q&A by fielding questions from the audience in a knowledgeable and concise way."
+            }]
+          },{
+            "code":"NGE.2.3",
+            "descriptor":"Customize the presentation for the specific purpose, context, and audience",
+            "statement":"",
+            "level":[{
+              "2":"I can follow all guidelines that were provided for my presentation (e.g. time limits)",
+              "4":"I can follow all guidelines that were provided for my presentation. I can appropriately welcome and greet my audience (e.g. 'Good morning, ladies and gentlemen!')",
+              "6":"I can follow all guidelines that were provided for my presentation. I can appropriately welcome and greet my audience (e.g. 'Good morning, ladies and gentlemen!') I can choose examples that will be relatable to my specific audience.",
+              "8":"I can follow all guidelines that were provided for my presentation. I can appropriately welcome and greet my audience ('Good morning, ladies and gentlemen!') I can choose words, details, and examples that will be relatable to my specific audience. I can set a tone for my presentation that is appropriate for my audience (serious, humorous, enthusiastic).",
+              "10":"I can follow all guidelines that were provided for my presentation. I can appropriately welcome and greet my audience. I can organize and deliver my presentation in a way that demonstrates I have taken into consideration my specific audience (e.g. language, vocabulary, content, structure, background knowledge). I can set a tone for my presentation that is appropriate for my audience (serious, humorous, enthusiastic).",
+              "12":"I can follow all guidelines that were provided for my presentation. I can appropriately welcome and greet my audience. I can tailor the content, style and visuals of my presentation to make it relatable to and relevant  for my specific audience. I can set a tone for my presentation that is appropriate for my audience (serious, humorous, enthusiastic) and I can maintain that tone throughout. I can read my audience and, when needed, I can make changes to my presentation (e.g. length, language, anecdotes) so that my audience remains engaged."
+            }]
+          },{
+            "code":"NGE.2.4",
+            "descriptor":"Use presentation aids",
+            "statement":"",
+            "level":[{
+              "2":"I can make or use a visual aid for my presentation (e.g. poster, photographs, chart, graph).",
+              "4":"I can make a visual aid for my presentation. I can include simple multimedia components (e.g. graphics, images) that relate to my central idea.",
+              "6":"I can make a visual aid for my presentation that has a uniform style (e.g. consistent colors, themes, fonts) I can include multimedia components (e.g. graphics, images, sounds, music) that relate to my central idea.",
+              "8":"I can make a visual aid for my presentation that has a uniform style (e.g. consistent colors, themes, fonts) I can include multimedia components that support and reinforce my central idea.  I can explain the multimedia components so that my audience understands them and sees how they connect to my central idea.",
+              "10":"I can make a visual aid for my presentation that has a uniform style. I can include specific multimedia components to help clarify information, strengthen my central idea, and/or emphasize the most important information. I can explain the multimedia components so that my audience understands them and sees how they connect to my central idea. I can emphasizes only the most important information in my visual aids.",
+              "12":"I can make a visual aid for my presentation that has a uniform style. I can strategically use multimedia to help me achieve the purpose of my presentation (e.g. inform, persuade). I can explain the multimedia components so that my audience understands them and sees how they connect to my central idea. I can emphasizes only the most important information in my visual aids. When appropriate, I can use technology to expand my audience (e.g. Skype; record for later viewing)."
+            }]
+          },{
+            "code":"NGE.2.5",
+            "descriptor":"Use language and body movement effectively",
+            "statement":"",
+            "level":[{
+              "2":"I can speak loudly and clearly enough for my audience to hear and understand me. ",
+              "4":"I can speak loudly and clearly enough for my audience to hear and understand me.  I can look up to make eye contact with my audience.",
+              "6":"I can speak loudly and clearly enough for my audience to hear and understand me.  I can look up often and make eye contact with my audience. I can maintain good posture and/or move with purpose.",
+              "8":"I can speak loudly and clearly enough for my audience to hear and understand me.  I can look up often and make eye contact with my audience. I can maintain good posture and/or move with purpose. I can keep fidgeting and crutch words (e.g. um, uh, like, kind of, you know, right) to a minimum to keep from distracting my audience.",
+              "10":"I can speak loudly and clearly enough for my audience to hear and understand me.  I can maintain direct eye contact with my audience throughout my presentation. I can maintain good posture and/or move with purpose. I can keep fidgeting and crutch words to a minimum to keep from distracting my audience. I can keep my presentation moving without losing my place.",
+              "12":"I can speak loudly and clearly enough for my audience to hear and understand me.  I can maintain direct eye contact with my audience throughout my presentation. I maintain good posture and/or move with purpose. I can keep fidgeting and crutch words to a minimum to keep from distracting my audience. I can change the pace and/or tone of my speaking to maintain interest and emphasize important points. I can use gestures and/or facial expressions to engage my audience."
+            }]
+          },{
+            "code":"NGE.2.6",
+            "descriptor":"Give an effective conclusion",
+            "statement":"",
+            "level":[{
+              "2":"I can conclude my presentation by restating my central idea.",
+              "4":"I can conclude my presentation by restating my central idea and main points.",
+              "6":"I can conclude my presentation by restating my central idea and main points. I can end my presentation with a concluding statement.",
+              "8":"I can conclude my presentation by restating my central idea and main points. I can leave my audience with something to think about (e.g. a question or final thought)",
+              "10":"I can conclude my presentation by summarizing my central idea and main points.  I can leave my audience with suggested next steps, resources for further learning or a call to commitment or action.",
+              "12":"I can conclude my presentation by providing a succinct and compelling synthesis of my central idea and main points.  I can leave the audience with suggested next steps, resources for further learning or a call to commitment or action. I can choose my final words carefully to impact my audience and leave them with a powerful message."
+            }]
+          }]   
+    },{
+      "code":"NGE.3",
+      "descriptor":"Collaborate Effectively",
+      "statement":"I can work effectively with diverse teams to create high quality products.",
+      "skill":[{
+        "code":"NGE.3.1",
+        "descriptor":"Interact and participate effectively with others",
+        "statement":"",
+        "level":[{
+          "2":"I can follow the established norms for our group. I can respect the perspectives of other members of my team by listening without interrupting.",
+          "4":"I can follow the established norms for our group. I can positively contribute to my team by making sure I am on task and engaged in my work. I can respect the perspectives of other members of my team by listening without interrupting.",
+          "6":"I can follow the established norms for our group. I can identify or choose my role and I understand how I am expected to interact with my team. I can positively contribute to my team by making sure I am on task and engaged in my work. I can respect the perspectives of other members of my team by listening without interrupting.",
+          "8":"I can follow the established norms for our group. I can identify or choose my role and I understand how I am expected to interact with my team. I can positively contribute to my team by making sure I am on task, engaged in my work and consistently cooperating with my team. I can actively listen and acknowledge and respect the perspectives of my team members.",
+          "10":"I can co-create norms with my team and I can non-judgmentally call out when norms are being violated. I can identify or choose my role and I understand how I am expected to interact with my team. I can support other team members when they need help. I can contribute to our positive work environment and help build strong team relationships among my peers.  I can actively listen and acknowledge and respect the perspectives of my team members. I can participate in team work sessions and express my ideas. I can ask clarifying questions to better understand my team members (when applicable).",
+          "12":"I can co-create norms with my team and I can non-judgmentally call out when norms are being violated. I can lead my team in a process to address the issues. I can identify or choose my role and I understand how I am expected to interact with my team. I recognize the talents and strengths of each team member and support them in their roles and recommend changes if needed. I can actively work to create a positive work environment and help build strong team relationships among my peers. I encourage my teammates to stay on task and engaged in their work. I can acknowledge and respect the perspectives of my team members and I can make sure everyone is heard. I can help lead effective team work sessions by clearly expressing my ideas and by responding thoughtfully to other's ideas.  I can ask probing questions of others to better understand their ideas and perspectives (when applicable)."
+        }]
+      },{
+        "code":"NGE.3.2",
+        "descriptor":"Complete my part of the work",
+        "statement":"",
+        "level":[{
+          "2":"I can complete my work to meet our team deadlines. I can contribute to the creation of our final product for submission.",
+          "4":"I can complete my work to meet our team deadlines. I can bring my tasks to the team for feedback. My final contributions meet most requirements for our project. I can contribute to the creation of our final product for submission.",
+          "6":"I can prioritize all team meetings, but when I cannot attend, I follow up after to see what I missed I can complete my work to meet our team deadlines I can bring my tasks to the team for feedback. My final contributions meet most requirements for our project I can contribute to the creation of our final product for submission",
+          "8":"I can prioritize all team meetings, but when I cannot attend, I tell my team before the meeting and then follow up after to see what I missed. I can complete my work on time or early to meet our team deadlines. I can bring my tasks to the team for feedback and revision. My final contributions meet the requirements for our project. When asked, I can provide feedback to my team members. I can contribute to the creation of our final product and work to make sure it is completed and submitted on time.",
+          "10":"I can highly prioritize all team meetings, but when I cannot attend, I tell my team before the meeting and send all work products for which I am responsible. I then follow up after to see what I missed. I can complete my work on time or early to meet our team deadlines. I can make sure my team members are aware of our deadlines. I can bring my tasks to the team for multiple rounds of feedback and revisions. My final contributions are high quality and meet all requirements for our project. I can provide criteria-based feedback to my team members. I can work with my team to ensure that our final product is complete and submitted on time.",
+          "12":"I can highly prioritize all team meetings but when I cannot attend, I tell my team before the meeting and send all work products for which I am responsible. I then follow up after to see what I missed. When possible, I can attend these meetings virtually. I can complete my work on time, or early, to meet our team deadlines. I make sure my team members are aware of our deadlines and I can help and encourage them to meet the deadlines. I can actively seek feedback from my team members and apply that feedback to improve the quality of my work. My final contributions are high quality and meet all requirements for our project. I can give specific and constructive criteria-based feedback to members of my team so we can improve our final product. I can lead and facilitate the process for bringing our final product together and ensuring that it is complete and meets all requirements and deadlines for final submission."
+        }]
+        },{
+        "code":"NGE.3.3",
+        "descriptor":"Manage and resolve conflicts",
+        "statement":"",
+        "level":[{
+          "2":"I can work together with others to determine ways to resolve a conflict. With support, I can take responsibility for my actions.",
+          "4":"I can work together with others to determine ways to resolve a conflict. I can help implement the solution.  With support, I can take responsibility for my actions.",
+          "6":"I can work together with others to determine ways to resolve a conflict. I can help implement the solution.  I can take responsibility for my role in the conflict.",
+          "8":"I can brainstorm ideas to manage and resolve a conflict. I can work with others to determine which solution will provide the most benefit to all involved in the conflict and I can help to implement the solution. I can take responsibility for my role in the conflict.",
+          "10":"I can brainstorm ideas to manage and resolve a conflict. I can consider the feelings and perspectives of all parties involved. I can work with others to determine which solution will provide the most benefit to all involved in the conflict and I can help to implement the solution. I can take responsibility for my role in the conflict and I can take appropriate action to repair any damaged relationships, property, etc.",
+          "12":"I can identify the underlying values at stake in the conflict for all parties involved. I can draw on these insights and work with others to generate an effective resolution strategy.  I can work with others to implement the resolution strategy that is most beneficial to all involved. I can identify and take responsibility for my role in the conflict and I can take appropriate action to repair any damaged relationships, property, etc."
+        }]
+      },{
+        "code":"NGE.3.4",
+        "descriptor":"Reflect on our product and process",
+        "statement":"",
+        "level":[{
+          "2":"With my team, I can discuss and reflect on what we did well and what we could have done better. I can reflect on my personal strengths.",
+          "4":"With my team, I can discuss and reflect on what we did well and what we could have done better. I can reflect on my personal strengths and on my opportunities for growth.",
+          "6":"With my team, I can discuss and reflect on what we did well and what we could have done better. I can reflect on my personal strengths and on my opportunities for growth and I can think of a few ways to improve.",
+          "8":"With my team, I can discuss and reflect on our strengths and our opportunities for growth in both our product and our process of working together. I can reflect on my personal strengths and on my opportunities for growth as well as specific next steps I can take to build my skills or strategies in this area.",
+          "10":"With my team, I can discuss and reflect on our strengths and our opportunities for growth in both our product and our process of working together. I can reflect on my personal strengths and on my opportunities for growth. I can set a goal for growth in one area as well as specific next steps I can take to build my skills or strategies in this area. ",
+          "12":"With my team, I can critique and reflect on our strengths and our opportunities for growth in both our product and our process of working together. I can reflect on my personal strengths and  on my opportunities for growth. I can set a goal for growth in one area as well as specific next steps I can take to build my skills or strategies in this area.  I can reach out to a mentor to provide support as I work on these areas for growth."
+        }]
+      }]
+      }]
+  },{
+    "code":"VA",
+    "descriptor":"Visual Arts",
+    "competency":[{
+      "code":"VA.1",
+      "descriptor":"Creating Design Projects",
+      "statement":"I can conceive and develop new design ideas and work.",
+      "skill":[
+      {
+        "code":"VA.1.1",
+        "descriptor":"Generate ideas for a design project",
+        "statement":" ",
+        "level":[{
+          "2":"I can share ideas that are connected to my interests, experiences, or questions about the world.",
+          "4":"I can share ideas that are connected to my interests, experiences, or questions about the world. I can work with a group to brainstorm and come up with novel ideas for design projects.  ",
+          "6":"I can generate ideas to solve problems using design principles.I can develop clear goals and criteria to help guide the process when coming up with ideas for creative projects I can use different methods to help me overcome my creative blocks when coming up with ideas for creative projects.",
+          "8":"I can generate ideas to solve problems using design principles.I can develop clear goals and criteria to help guide the process when coming up with ideas for creative projects. I can use different methods to help me overcome my creative blocks when I need additional input on creative ideas for projects. Working with others, I can apply design thinking to address authentic problems in my design projects.",
+          "10":"I can independendently pursue a creative investigation that relates to some aspect of present-day life using a contemporary design practice. I can develop clear goals and criteria to help guide the process when coming up with ideas for creative projects. I can use multiple approaches (research, observation, ideation, prototyping) to begin a creative project and use different methods to overcome creative blocks.",
+          "12":"I can independently or collaboratively formulate new creative problems based on my existing portfolio.  I can develop clear goals and criteria to help guide the process when coming up with ideas for creative projects. I can choose from a range of materials and methods of traditional and contemporary design practices to plan and produce work. I can utilize inquiry methods of observation, research, and/or experimentation to explore unfamiliar subjects through design."
+        }]
+      },{
+        "code":"VA.1.2",
+        "descriptor":"Organize and develop a project plan",
+        "statement":"",
+        "level":[{
+          "2":"I can come up with an idea for a design project. I can implement a workflow or process to develop design ideas.",
+          "4":"I can come up with an idea for a design that relates to an interest, experience, or question that I have.I can make a goal for my project, and create a plan that describes my process and timeline for creating the artwork. I can identify the tools and create the assets I need.",
+          "6":"I can brainstorm ideas for a design project that relates to an interest, experience, or issue in my community or in the world. I can select an idea, develop a goal and quality criteria for my project, and a plan that describes my process and timeline. I can identify the tools and create the assets I need.",
+          "8":"I can generate a novel idea for a design project that relates to an interest, experience, or issue in my community or in the world, and that involves an established design practice. I can develop clear goals and quality criteria for my project, as well as a plan that describes my process and timeline. I can identify resources I need, and conduct research to deepen my knowledge of the practices, tools, or methods I will apply.",
+          "10":"I can generate a novel idea for a design project that relates to an interest, experience, or issue in my community or in the world, and that involves an innovative design practice. I can develop clear goals and quality criteria for my product and my process, as well as a plan that describes my process and timeline. I can identify and gather the tools I need, and use multiple approaches to initiate my endeavor, including research and observation of experts.",
+          "12":"I can formulate a new creative problem, based on my existing portfolio that relates to an interest, experience, or issue in my community or in the world. I can develop clear goals and quality criteria for my product and my process, as well as a plan that describes my process and timeline. I can choose from a range of methods of traditional and contemporary design practices to plan projects. I can utilize inquiry methods of observation, research, and/or experimentation to explore unfamiliar subjects through design."
+        }]
+      },{
+        "code":"VA.1.3",
+        "descriptor":"Demonstrate understanding ethical, sustainable and accessible design practices.",
+        "statement":"",
+        "level":[{
+          "2":"I can show consideration of ethical, sustainable and accessible design practices. ",
+          "4":"I can share research of ethical considerations. I can share research of sustainable design. I can share research of accessible design.",
+          "6":"I can apply research of ethical considerations. I can apply research of sustainable design. I can apply research of accessible design. I can explain some of the risks and responsibilities of sharing content online via social media and other platforms.",
+          "8":"I can explain some of the risks and responsibilities of sharing content online via social media and other platforms. I can demonstrate awareness of practices, issues, and ethics of appropriation, fair use, copyright, open source, and creative commons as they apply to design.",
+          "10":"I can apply awareness ethical, sustainable and accessible design in my own practice.I can explain some of the risks and responsibilities of sharing content online via social media and other platforms. I can demonstrate awareness of practices, issues, and ethics of appropriation, fair use, copyright, open source, and creative commons as they apply to design.",
+          "12":"I can apply awareness of  ethical, sustainable. and accessible design in my own practice. I can reflect upon my design practice and share personal thoughts and insights gained by implementing ethical, sustainable and accessible considerations."
+        }]
+      },{
+        "code":"VA.1.4",
+        "descriptor":"Refine and improve the work",
+        "statement":"",
+        "level":[{
+          "2":"I can explain what I like about my work, and why I like it and how it relates to other, similar work.",
+          "4":"I can identify strengths and areas for improvement in my work. I can reflect on whether my design work achieves the goal sand/or conveys the meanings I want to communicate. I can receive feedback to guide effective improvement.",
+          "6":"I can apply design principles to identify strengths and areas for improvement in my work. I can reflect on whether my design work achieves the goal sand/or conveys the meanings I want to communicate.I can receive feedback to guide effective improvement.",
+          "8":"I can apply design principles to identify strengths and areas for improvement in my work. I can reflect on whether my design work achieves the goal sand/or conveys the meanings I want to communicate.I can give and receive effective feedback to guide effective improvement. I can use feedback to improve my designs, reflecting on how it informs future work.",
+          "10":"I can  apply design principles to analyze my work and decide on needed revisions, and/or work with others to assess, reflect, and determine needed revisions.I can selectively integrate feedback to plan for revisions to improve my design and make the meaning or purpose more clear for the audience.",
+          "12":"I can engage in constructive critique with peers applying design principles to analyze work, and discuss possible revisions that would make the work stronger. I can reflect on this collaborative process, re-engage and refine my design reflecting my own, personal style. I can selectively integrate feedback to plan for revisions to improve my design and make the meaning or purpose more clear for the audience."
+        }]
+      }]
+      }]
+  }]
+}
+
+
