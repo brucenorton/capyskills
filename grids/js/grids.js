@@ -61,7 +61,7 @@ const main = document.querySelector('main');
   }
 
   function refreshGrids(stateElement){
-    console.log('refreshGrids', stateElement);
+    console.log(state);
     if (stateElement === 'area'){
       displayCompetencies(state[stateElement]);
     } else if (stateElement === 'competency'){
@@ -162,26 +162,24 @@ const main = document.querySelector('main');
         div.innerHTML = value;
         section.appendChild(div);
 
-        section.addEventListener('click', (event)=> displayLevel(event, level, `${key}`));
+        section.addEventListener('click', (event)=> displayLevel(event, level, key));
         main.appendChild(section);
       }
-      
     })
   }
   // ?? key not needed anymore
   function displayLevel(event, level, key){
     //add level text or just toggle open/closed?
-    //console.log(level,key);\
+    //console.log(level,key);
     //console.log(level[key]);
     event.target.parentNode.querySelector('div').classList.toggle('open');
-    state.level = level;
-
+    state.level = key;
+    console.log(state);
   }
-
 
 //abstract? repeats displayArea();
 function addAreaHeader(area){
-  console.log('addAreaHeader', area);
+  //console.log('addAreaHeader', area);
   let section = document.createElement('section');
   section.innerHTML = `<h2>${area[0].code} ${area[0].descriptor}</h2>`;
   section.className= 'area';
@@ -215,10 +213,3 @@ function addSkillHeader(skill){
   main.appendChild(article);
   article.addEventListener('click', (event)=> refreshGrids('competency'));
 }
-
-/*
- //remove eventListener??
-  let competencyHeaders = document.querySelectorAll('.competency');
-  console.log(competencyHeaders);
-  competencyHeaders.forEach((header)=> header.removeEventListener('click'));
-  */
