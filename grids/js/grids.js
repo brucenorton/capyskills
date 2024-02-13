@@ -53,12 +53,22 @@ const main = document.querySelector('main');
     // load competencies, skills & levels as needed
 
   function getTarget(event, stateElement){
-    console.log(event.target.parentNode.id);
+    //console.log(event.target.parentNode.id);
     state[stateElement] = event.target.parentNode.id;
-    console.log(state[stateElement]);
+    //console.log(stateElement);
     //figure out which state to load??
-    displayCompetencies(state[stateElement]);
-  
+    refreshGrids(stateElement);
+  }
+
+  function refreshGrids(stateElement){
+    console.log('refreshGrids', stateElement);
+    if (stateElement === 'area'){
+      displayCompetencies(state[stateElement]);
+    } else if (stateElement === 'competency'){
+      displaySkills(state[stateElement]);
+    }else if (stateElement === 'skill'){
+      displayLevels(state[stateElement]);
+    }
   }
 
 
@@ -86,21 +96,21 @@ const main = document.querySelector('main');
       article.classList.add(competency.code.split('.')[0]);
       article.id = competency.code;
       //article.addEventListener('click', ()=> displaySkills(competency, competency.skill));
-      article.addEventListener('click', (event)=> displaySkills(event));
+      // article.addEventListener('click', (event)=> displaySkills(event));
+      article.addEventListener('click', (event)=> getTarget(event, 'competency'));
       main.appendChild(article);
     })
   }
 
-  function displaySkills(event){
+  function displaySkills(stateSkill){
     main.innerHTML = '';
     //add clicked competency code to state i.e. VA.1 Creating Design Projects
-    state.competency = event.target.parentNode.id;
-    console.log(state.competency);
+    //state.competency = event.target.parentNode.id;
+    //console.log(state.competency);
 
     //filter skills i.e. NGE.2.1 Introduce presentation
     //console.log(gridJSON.area.filter(area => area.code === state.area)[0].competency.filter(competency => competency.code === state.competency)[0].skill);
     let skills = gridJSON.area.filter(area => area.code === state.area)[0].competency.filter(competency => competency.code === state.competency)[0].skill
-
     //add headers
       //filter areas i.e. HOS Habits of Success
       addAreaHeader(gridJSON.area.filter(area => area.code === state.area));
@@ -114,18 +124,20 @@ const main = document.querySelector('main');
       article.classList.add(skill.code.split('.')[0]);
       article.id = skill.code;
       //article.addEventListener('click', (event)=> displayLevels(skill, skill.level));
-      article.addEventListener('click', (event)=> displayLevels(event));
+      ///article.addEventListener('click', (event)=> displayLevels(event));
+      article.addEventListener('click', (event)=> getTarget(event, 'skill'));  
       main.appendChild(article);
       
     })
+     
   }
   //function displayLevels(skill, levels){
-  function displayLevels(event){
+  function displayLevels(stateLevel){
     main.innerHTML = '';
-    state.skill = event.target.parentNode.id;
-    console.log(state.skill);
+    //state.skill = event.target.parentNode.id;
+    //console.log(state.skill);
     let levels = gridJSON.area.filter(area => area.code === state.area)[0].competency.filter(competency => competency.code === state.competency)[0].skill.filter(skill => skill.code === state.skill)[0].level;
-    console.log(levels);
+    //console.log(levels);
     /* something about not repeating this stuff 
     ?? create a function to reload stuff whenever we change a level? 
     ?? whenever state changes? */
@@ -140,7 +152,7 @@ const main = document.querySelector('main');
       //loop through object.keys and values
       for (const [key, value] of Object.entries(level)) {
         let section = document.createElement('section');
-        console.log(`${key}: ${value}`);
+        //console.log(`${key}: ${value}`);
         section.innerHTML += `<h3>level ${key}</h3>`;
         section.className= 'level';
         section.classList.add(state.skill.split('.')[0]);
@@ -156,7 +168,7 @@ const main = document.querySelector('main');
       
     })
   }
-
+  // ?? key not needed anymore
   function displayLevel(event, level, key){
     //add level text or just toggle open/closed?
     //console.log(level,key);\
@@ -169,6 +181,7 @@ const main = document.querySelector('main');
 
 //abstract? repeats displayArea();
 function addAreaHeader(area){
+  console.log('addAreaHeader', area);
   let section = document.createElement('section');
   section.innerHTML = `<h2>${area[0].code} ${area[0].descriptor}</h2>`;
   section.className= 'area';
@@ -187,15 +200,25 @@ function addCompetencyHeader(competency){
   //add eventListener to reload competencies, removing skills and levels
   //or just use state everywhere and reload everything?
   //article.addEventListener('click', ()=> displayCompetencies(competency[0].code));
+  //console.log(state.competency);
   main.appendChild(article);
+  article.addEventListener('click', (event)=> refreshGrids('area'));
 }
 
 function addSkillHeader(skill){ 
+ 
   let article = document.createElement('article');
   article.innerHTML = `<h3>${skill.code} ${skill.descriptor}</h3>`;
   article.className= 'skill';
   article.classList.add(skill.code.split('.')[0]);
   article.id = skill.code;
   main.appendChild(article);
+  article.addEventListener('click', (event)=> refreshGrids('competency'));
 }
 
+/*
+ //remove eventListener??
+  let competencyHeaders = document.querySelectorAll('.competency');
+  console.log(competencyHeaders);
+  competencyHeaders.forEach((header)=> header.removeEventListener('click'));
+  */
