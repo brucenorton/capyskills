@@ -1,4 +1,5 @@
 console.log('js/grids.js loaded...');
+console.log(window.location.pathname);
 /* notes to self
 - add to grids.json
 - enable back button on headers
