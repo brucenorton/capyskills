@@ -36,12 +36,15 @@ const main = document.querySelector('main');
 
   function displayAreas(areas){
     main.innerHTML = '';
+    let delayIndex = 0;
     areas.forEach((area)=>{
       //console.log(area);
       let section = document.createElement('section');
       section.innerHTML = `<h2>${area.code} ${area.descriptor}</h2>`;
-      section.className= 'area';
+      section.classList.add('area');
       section.id = area.code;
+      section.style.animationDelay = `${delayIndex * 100}ms`;
+      delayIndex++;
       //section.addEventListener('click', (event)=> displayCompetencies(area, area.competency));
       //section.addEventListener('click', (event)=> displayCompetencies(event));   
       section.addEventListener('click', (event)=> getTarget(event, 'area'));   
@@ -78,6 +81,7 @@ const main = document.querySelector('main');
   function displayCompetencies(stateArea){
     //console.log(event.target.parentNode.id);
     main.innerHTML = '';
+    let delayIndex = 0;
     //state.area = event.target.parentNode.id;
     let competencies = gridJSON.area.filter(area => area.code === state.area)[0].competency; 
     // console.log(state.area);
@@ -95,6 +99,8 @@ const main = document.querySelector('main');
       article.innerHTML = `<h3>${competency.code} ${competency.descriptor}</h3>`;
       article.className= 'competency';
       article.classList.add(competency.code.split('.')[0]);
+      article.style.animationDelay = `${delayIndex * 100}ms`;
+      delayIndex++;
       article.id = competency.code;
       //article.addEventListener('click', ()=> displaySkills(competency, competency.skill));
       // article.addEventListener('click', (event)=> displaySkills(event));
@@ -105,6 +111,7 @@ const main = document.querySelector('main');
 
   function displaySkills(stateSkill){
     main.innerHTML = '';
+    let delayIndex = 0;
     //add clicked competency code to state i.e. VA.1 Creating Design Projects
     //state.competency = event.target.parentNode.id;
     //console.log(state.competency);
@@ -123,6 +130,8 @@ const main = document.querySelector('main');
       article.innerHTML = `<h3>${skill.code} ${skill.descriptor}</h3>`;
       article.className= 'skill';
       article.classList.add(skill.code.split('.')[0]);
+      // article.style.animationDelay = `${delayIndex * 100}ms`;
+      // delayIndex++;
       article.id = skill.code;
       //article.addEventListener('click', (event)=> displayLevels(skill, skill.level));
       ///article.addEventListener('click', (event)=> displayLevels(event));
@@ -135,6 +144,7 @@ const main = document.querySelector('main');
   //function displayLevels(skill, levels){
   function displayLevels(stateLevel){
     main.innerHTML = '';
+    let delayIndex = 0;
     //state.skill = event.target.parentNode.id;
     //console.log(state.skill);
     let levels = gridJSON.area.filter(area => area.code === state.area)[0].competency.filter(competency => competency.code === state.competency)[0].skill.filter(skill => skill.code === state.skill)[0].level;
@@ -157,6 +167,8 @@ const main = document.querySelector('main');
         section.innerHTML += `<h3>level ${key}</h3>`;
         section.className= 'level';
         section.classList.add(state.skill.split('.')[0]);
+        // section.style.animationDelay = `${delayIndex * 100}ms`;
+        // delayIndex++;
         section.id = `${state.skill}.${key}`;
         //add level descriptions, but then hide?? i.e. 
         let div = document.createElement('div');

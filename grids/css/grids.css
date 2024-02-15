@@ -25,7 +25,12 @@ main{
 
 section.area{
   background-color: rgb(240 240 240 /1);
+  opacity: 0;
+  animation: slideIn 500ms forwards;
+  
 }
+
+
 #HOS,.HOS{
   background-color: rgb(0 140 193 / 1);
 }
@@ -52,16 +57,17 @@ h3{
 
 article.competency{
   margin: 0 0 0 1.2rem;
+  animation: slideIn 500ms forwards;
 }
 
 article.skill{
   margin: 0 0 0 2.074rem;
+  animation: slideIn 500ms forwards;
 }
-section.element{
 
-}
 section.level{
   margin: 0 0 0 2.986rem;
+  animation: slideIn 500ms forwards;
 }
 section.level div{
   background-color: rgb(240 240 240 /1);
@@ -71,4 +77,17 @@ section.level div{
 }
 section.level div.open{
   display: block;
+}
+
+
+@keyframes slideIn{
+  0%{
+    transform: translateX(50vw);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
 }
